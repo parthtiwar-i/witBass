@@ -1,0 +1,73 @@
+body{
+    background-image:linear-gradient(to right , #de6262, #ffb88c);
+    text-align: center;
+
+
+}
+.TitleDrum{
+    width: 6rem;
+    filter: drop-shadow(5px 2px 3px rgb(79, 33, 33));
+}
+.title{
+    color: crimson;
+    text-shadow: 5px 2px 3px rgba(133, 79, 79, 0.907) ;
+    font-size: 6rem;
+    font-family: 'Caveat', cursive;
+    padding: 1rem;
+}
+.drums{
+    background-color: #de626200;
+    border:none;
+    border-radius: 5%;
+    width: 10rem ;
+    height: 8rem;
+}
+
+.firstR{
+    padding: 1rem 0 3rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.secondR{
+    display: flex;
+    justify-content: space-evenly;
+}
+.drums{
+    font-size: 3rem;
+    color: #5e2222;
+
+}
+#tom3{
+    margin-left: auto;
+    z-index: 1;
+}
+#tom4{
+    margin-right: auto;
+}
+
+.footer{
+    color: white;
+    font-weight: 700;
+    padding: 5rem 0 2rem;
+}
+.pressed{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+
+div#crash {
+    position: relative;
+    top: -16rem;
+    left: -4rem;
+}
+div#kick {
+    position: relative;
+    top: -3rem;
+    left: -3rem;
+}
+div#snare {
+    position: relative;
+    top: -6rem;
+    right: 2rem;
+}
