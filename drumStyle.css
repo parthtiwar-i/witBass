@@ -32,11 +32,11 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
-.drums{
+/* .drums{
     font-size: 3rem;
     color: #5e2222;
 
-}
+} */
 #tom3{
     margin-left: auto;
     z-index: 1;
@@ -70,4 +70,10 @@ div#snare {
     position: relative;
     top: -6rem;
     right: 2rem;
+}
+
+.buttons{
+    width: 4rem;
+    border-radius: 30%;
+    background-color: #5e2222;
 }
