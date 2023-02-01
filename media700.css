@@ -1,0 +1,24 @@
+body{
+    background-image:linear-gradient(to right , #de6262, #ffb88c);
+    text-align: center;
+}
+
+.firstR{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem ;
+}
+.secondR{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drums{
+    border: 5px outset #de6262 ;
+    border-radius: 15%;
+    color: rgb(113, 29, 39);
+    width: 7rem;
+    height: 7rem;
+    font-size: 5rem;
+    background-color: rgba(203, 129, 110, 0);
+}
